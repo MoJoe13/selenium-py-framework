@@ -6,6 +6,7 @@ import time
 
 class DemoqaCheckBoxPage(BaseDriver):
 
+    # These are locator constants (find a way to externalize them)
     # Expand buttons
     EXPAND_ALL_BTN = "//button[@title='Expand all']//*[name()='svg']"
     COLLAPSE_ALL_BTN = "//button[@title='Collapse all']//*[name()='svg']"
